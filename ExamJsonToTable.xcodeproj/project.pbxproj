@@ -15,6 +15,8 @@
 		213C8FC81FE825E00046786A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213C8FC61FE825E00046786A /* LaunchScreen.storyboard */; };
 		213C8FD31FE825E00046786A /* ExamJsonToTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8FD21FE825E00046786A /* ExamJsonToTableTests.swift */; };
 		213C8FDE1FE825E00046786A /* ExamJsonToTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213C8FDD1FE825E00046786A /* ExamJsonToTableUITests.swift */; };
+		21E73F331FEE20BD006CFA7A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E73F321FEE20BD006CFA7A /* TableViewCell.swift */; };
+		21EA2EE31FECF598003C9331 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 21EA2EE21FECF597003C9331 /* colors.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		213C8FD91FE825E00046786A /* ExamJsonToTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamJsonToTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		213C8FDD1FE825E00046786A /* ExamJsonToTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamJsonToTableUITests.swift; sourceTree = "<group>"; };
 		213C8FDF1FE825E00046786A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E73F321FEE20BD006CFA7A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		21EA2EE21FECF597003C9331 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +103,11 @@
 		213C8FB91FE825E00046786A /* ExamJsonToTable */ = {
 			isa = PBXGroup;
 			children = (
+				21EA2EE21FECF597003C9331 /* colors.json */,
 				213C8FBA1FE825E00046786A /* AppDelegate.swift */,
 				213C8FBC1FE825E00046786A /* ViewController.swift */,
 				213C8FBE1FE825E00046786A /* Main.storyboard */,
+				21E73F321FEE20BD006CFA7A /* TableViewCell.swift */,
 				213C8FC41FE825E00046786A /* Assets.xcassets */,
 				213C8FC61FE825E00046786A /* LaunchScreen.storyboard */,
 				213C8FC91FE825E00046786A /* Info.plist */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213C8FC81FE825E00046786A /* LaunchScreen.storyboard in Resources */,
+				21EA2EE31FECF598003C9331 /* colors.json in Resources */,
 				213C8FC51FE825E00046786A /* Assets.xcassets in Resources */,
 				213C8FC01FE825E00046786A /* Main.storyboard in Resources */,
 			);
@@ -263,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				213C8FC31FE825E00046786A /* ExamJsonToTable.xcdatamodeld in Sources */,
+				21E73F331FEE20BD006CFA7A /* TableViewCell.swift in Sources */,
 				213C8FBD1FE825E00046786A /* ViewController.swift in Sources */,
 				213C8FBB1FE825E00046786A /* AppDelegate.swift in Sources */,
 			);
@@ -431,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TS6W29VY;
 				INFOPLIST_FILE = ExamJsonToTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sakurafish.swift.example.jsonlist.ExamJsonToTable;
@@ -445,6 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TS6W29VY;
 				INFOPLIST_FILE = ExamJsonToTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sakurafish.swift.example.jsonlist.ExamJsonToTable;
